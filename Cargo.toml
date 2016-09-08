@@ -1,0 +1,6 @@
+[package]
+name = "rust-decnalab"
+version = "0.1.0"
+authors = ["Arne Mæhlum <arne.mahlum@gmail.com>"]
+
+[dependencies]
