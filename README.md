@@ -15,7 +15,7 @@ I wanted a setup that made it as easy to work with Rust as it is to work with fr
 1. [Install Rust](https://www.rust-lang.org/en-US/downloads.html)
     * Add a [Rust plugin](https://forge.rust-lang.org/ides.html) to your editor/IDE.
     * Add `~/.cargo/bin` to your $PATH ― when you install packages with `cargo install`, this is where the packages end up (at least on unix systems). If you don't add this directory to your $PATH, rustfmt, Racer and any other cargo packages will not be found.
-1. [Install Racer](https://github.com/phildawes/#installation) with `cargo install racer` (may take a few minutes).
+1. [Install Racer](https://github.com/phildawes/racer#installation) with `cargo install racer` (may take a few minutes).
     * Also be sure to [configure Racer](https://github.com/phildawes/racer#configuration) or else it won't work (I suggest getting Rust sources by cloning the [github repo](https://github.com/rust-lang/rust)).
     * Add a [Racer plugin](https://github.com/phildawes/racer#editorsides-supported) to your editor/IDE.
     * PS: If you see a bunch of temporary files with garbled names showing up when editing a Rust file, simply resarting the editor/IDE might fix it. If not, [take a look at this](https://github.com/defuz/RustAutoComplete/issues/19).
