@@ -4,7 +4,7 @@ I wanted a setup that made it as easy to work with Rust as it is to work with fr
 
 ### What do each of these uitilities do for you?
 
-1. Rust itself comes with a compiler and a package manager named _Cargo_ (think npm). Cargo lets you easily install Rust packages by running `cargo install &lt;package>` in the terminal. If you want a full intro to the basics of Rust, check the [Getting Started](https://doc.rust-lang.org/book/getting-started.html) page.
+1. Rust itself comes with a compiler and a package manager named _Cargo_ (think npm). Cargo lets you easily install Rust packages by running `cargo install <package>` in the terminal. If you want a full intro to the basics of Rust, check the [Getting Started](https://doc.rust-lang.org/book/getting-started.html) page.
 1. [Racer](https://github.com/phildawes/racer#racer---code-completion-for-rust) provides code completion and should be hooked into your editor.
 1. [cargo-watch](https://github.com/passcod/cargo-watch#-cargo-watch) lets you watch your project for changes so that you don't have to manually trigger a build to see if you code compiles every time you save a document.
 1. [rustfmt](https://github.com/rust-lang-nursery/rustfmt#rustfmt--) helps you format Rust code according to style guidelines (think eslint), and you can either hook it into your editor or run it in the terminal.
@@ -23,7 +23,7 @@ I wanted a setup that made it as easy to work with Rust as it is to work with fr
 1. [Install rustfmt](https://github.com/rust-lang-nursery/rustfmt#installation) with `cargo install rustfmt` (may take a few minutes).
 1. Install [dybuk](https://github.com/Ticki/dybuk):
     1. cd to where you want to keep the dybuk repo
-    1. Run `git cone https://github.com/ticki/dybuk.git`
+    1. Run `git clone https://github.com/ticki/dybuk.git`
     1. Run `cargo install --path dybuk`
 
 ### How to use
